@@ -1,0 +1,21 @@
+.button {
+  margin: 20px 0;
+  padding: 3px;
+  width: 250px;
+  height: 40px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  line-height: 0;
+  font-weight: bolder;
+  text-align: center;
+
+  cursor: pointer;
+  background-color: var(--secondary-bgc);
+  border: 3px solid var(--text-color);
+}
+
+.button:hover {
+  background-color: var(--main-bgc);
+  color: var(--secondary-bgc);
+}
