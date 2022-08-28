@@ -1,0 +1,26 @@
+.btn {
+  margin: 5px 10px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 0;
+  font-weight: bold;
+
+  cursor: pointer;
+  background-color: var(--secondary-bgc);
+  border: 2px solid var(--text-color);
+}
+
+.btn:hover {
+  background-color: var(--main-bgc);
+  color: var(--secondary-bgc);
+}
+.item {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
